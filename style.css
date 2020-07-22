@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(53,53,53);
+}
+
+header{
+    text-align: center;
+    font-size: 72px;
+    font-family: 'Tangerine';
+    color: whitesmoke
+}
+
+h3{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 26px;
+    font-family: "Unica One";
+}
+#topImage{
+
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 540px;
+    
+    
+}
+.watch_container{
+    padding: 16px;
+    border:solid;
+    border-color: #FDEFA6;
+    border-radius: 13px;
+    border-width: 2px;
+
+}
+.watch_container{
+    background-color: #1A1818;
+    color: whitesmoke;
+    font-family: 'Dosis';
+    margin-top: 15px;
+}
+#cwImg{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#mwImg{
+    clear: left;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+#pwImg{
+    clear:left;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#footer{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+}

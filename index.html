@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>uglyHTML</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Tangerine&family=Unica+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,21 +22,22 @@
         <h3>
             It's about time...
         </h3>
-        <img src="assets/manyWatches.png" alt="Many Watches">
+        <img src="assets/manyWatches.png" alt="Many Watches" id = "topImage">
     </div>
 
-    <div class="all_watches_container">
+    <span class="all_watches_container">
 
         <article class="watch_container">
-            <img src="assets/classicWatch.png" alt="Classic Watch">
-            <div class="text">
-
+            
+            <span class="textC">
+                <img src="assets/classicWatch.png" alt="Classic Watch" width="125" height="150" id = 'cwImg'>
+           
                 <h2>
                     Classic Watches
                 </h2>
 
                 <!-- Taken from https://en.wikipedia.org/wiki/Watch -->
-                <p class="watch_description">
+               
                     A watch is a timepiece intended to be carried or worn by a person. It is designed to keep working despite the motions caused
                     by the person's activities. A wristwatch is designed to be worn around the wrist, attached by a watch
                     strap or other type of bracelet. A pocket watch is designed for a person to carry in a pocket. Watches
@@ -53,11 +55,13 @@
                     such as timers, chronographs and alarm functions are common. Some modern designs incorporate calculators,
                     GPS and Bluetooth technology or have heart-rate monitoring capabilities. Some watches use radio clock
                     technology to regularly correct the time.
-                </p>
-            </div>
+                
+            </span>
         </article>
+    
+
         <article class="watch_container">
-            <img src="assets/mechanicalWatch.png" alt="Mechanical Watch">
+            <img src="assets/mechanicalWatch.png" alt="Mechanical Watch" width="125" height="150" id = 'mwImg'>
 
             <div class="text">
 
@@ -84,7 +88,7 @@
         </article>
 
         <article class="watch_container">
-            <img src="assets/pocketWatch.png" alt="Pocket Watch">
+            <img src="assets/pocketWatch.png" alt="Pocket Watch" width="150" height="150" id = 'pwImg'>
             <!-- secret #2 = E -->
             <div class="text">
 
@@ -111,9 +115,9 @@
 
         </article>
 
-    </div>
+    </span>
 
-    <footer>
+    <footer id = 'footer'>
         Copyright © 2018 Your Name | All rights reserved
     </footer>
 </body>
